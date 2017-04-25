@@ -1,4 +1,7 @@
-# api documentation for  [clarinet (v0.11.0)](https://github.com/dscape/clarinet)  [![npm package](https://img.shields.io/npm/v/npmdoc-clarinet.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clarinet) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clarinet.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clarinet)
+# npmdoc-clarinet
+
+#### basic api documentation for  [clarinet (v0.11.0)](https://github.com/dscape/clarinet)  [![npm package](https://img.shields.io/npm/v/npmdoc-clarinet.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clarinet) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clarinet.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clarinet)
+
 #### SAX based evented streaming JSON parser in JavaScript (browser and node)
 
 [![NPM](https://nodei.co/npm/clarinet.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/clarinet)
@@ -95,7 +98,8 @@
     "scripts": {
         "test": "./node_modules/mocha/bin/mocha -r should -t 10000 -s 2000  test/clarinet.js test/npm.js test/utf8-chunks.js test/position.js"
     },
-    "version": "0.11.0"
+    "version": "0.11.0",
+    "bin": {}
 }
 ```
 
